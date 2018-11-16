@@ -35,7 +35,6 @@ const LaunchRequestHandler = {
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
-      .withSimpleCard("Hello World", speechText)
       .getResponse()
   },
 }
@@ -54,7 +53,6 @@ const DatoCuriosoHandler = {
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
-      .withSimpleCard("Hello World", speechText)
       .getResponse()
   },
 }
@@ -72,7 +70,6 @@ const HelpIntentHandler = {
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
-      .withSimpleCard("Hello World", speechText)
       .getResponse()
   },
 }
@@ -92,7 +89,6 @@ const CancelAndStopIntentHandler = {
 
     return handlerInput.responseBuilder
       .speak(speechText)
-      .withSimpleCard("Hello World", speechText)
       .getResponse()
   },
 }
