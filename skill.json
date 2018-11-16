@@ -1,0 +1,35 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "formula uno",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "datoCurioso",
+                  "slots": [],
+                  "samples": [
+                      "dame algo",
+                      "una carrera",
+                      "un dato"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
